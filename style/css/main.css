@@ -1,0 +1,126 @@
+*, ::after, ::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: hsl(225deg, 100%, 94%);
+}
+
+.container {
+  padding: 1rem;
+}
+
+body {
+  font-family: "Red Hat Display";
+}
+
+h2, h3 {
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+}
+
+p {
+  color: hsl(224deg, 23%, 55%);
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-changeplan {
+  background: transparent;
+  text-decoration: underline;
+  color: hsl(245deg, 75%, 52%);
+}
+.btn-changeplan:hover {
+  text-decoration: none;
+}
+.btn-changeplan:active {
+  color: rgb(41, 102, 224);
+}
+
+.btn-payment {
+  background-color: hsl(245deg, 75%, 52%);
+  color: aliceblue;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 1px hsl(224deg, 23%, 55%);
+}
+.btn-payment:hover {
+  background-color: rgb(41, 102, 224);
+}
+.btn-payment:active {
+  background-color: rgb(20, 81, 202);
+}
+
+.btn-cancel-order {
+  background: none;
+  color: hsl(224deg, 23%, 55%);
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.btn-cancel-order:active {
+  color: hsl(223deg, 47%, 23%);
+}
+
+.card {
+  display: flex;
+  max-width: 24rem;
+  border-radius: 5%;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+  background-color: #FFF;
+}
+.card .banner-img {
+  width: 100%;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  gap: 1rem;
+}
+.card-content .plan {
+  display: flex;
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 5%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem;
+  flex-wrap: wrap;
+}
+.card-content .plan-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card-content .plan-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.2rem;
+  text-align: left;
+}
+.card-content .plan-price p {
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=main.css.map */

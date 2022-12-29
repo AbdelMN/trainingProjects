@@ -1,0 +1,15 @@
+@use "../utils/variables" as *;
+
+body{
+    font-family: "Red Hat Display";
+    
+}
+
+h2,h3{
+    font-weight: 900;
+    color: $title-color;
+}
+
+p{
+    color: $txt-color;
+}

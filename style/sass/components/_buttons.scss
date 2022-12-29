@@ -1,0 +1,56 @@
+
+@use "../utils/variables" as *;
+.btn{
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+
+.btn-changeplan{
+    background:transparent;
+    text-decoration: underline;
+    color:$btn-color;
+
+    &:hover{
+        text-decoration: none;
+    }
+    &:active{
+        color: rgb(41, 102, 224);
+    }
+}
+
+
+.btn-payment{
+    background-color: $btn-color;
+    color: aliceblue;
+    padding: 1rem;
+    border:none;
+    border-radius: 10px;
+    
+    box-shadow: 0px 5px 10px 1px hsl(224, 23%, 55%);
+
+    &:hover{
+        background-color: rgb(41, 102, 224);
+    }
+
+    &:active{
+        background-color: rgb(20, 81, 202);
+    }
+}
+
+.btn-cancel-order{
+    background: none;
+    color: hsl(224, 23%, 55%);
+    padding: 1rem;
+    border:none;
+    border-radius: 10px;
+    font-weight: 700;
+    
+    &:active{
+        color: $title-color;
+    }
+
+}
+
